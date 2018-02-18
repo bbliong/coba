@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+.asymmetric {
+	position: relative;
+	background-color: #7CCBF2;
+}
+
+.asymmetric::after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #7CCBF2;
+	transform-origin: bottom left;
+	transform: skewY(3deg);
+	z-index: 10;
+}
+
+div {
+	padding: 50px 0;
+}
+
+.blank-space {
+	height: 100px;
+}
+</style>
+</head>
+<body>
+<body>
+	<div class="blank-space"></div>
+	<div class="asymmetric">
+		<h2>Heading</h2>
+		<p>Lorem ipsum dolor sit amet, magna tellus, ultricies etphasellus tincidunt elit nec. Ornare sollicitudin sapien non, dignissim metus wisi pharetra sollicitudin, sem integer. Nibh sem et amet, ultrices ac interdum, nec enim lorem elit commodo dolor, aliquam ipsum eget ornare nullam, iaculis porttitor. Quisque sint, lobortis rutrum est nonummy, potenti quam quam molestie pede porta. Sem ante dis dui wisi suscipit, eu vitae odio integer, congue velit lectus aliquet luctus bibendum, et facilisis, laoreet ad</p>
+	</div>
+	<div class="blank-space"></div>
+</body>
+</body>
+</html>
