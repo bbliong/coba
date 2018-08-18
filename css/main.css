@@ -10,6 +10,10 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+a {
+	color : #FF9F13;
+}
+
 
 .cbp-fbscroller > nav {
 	position: fixed;
@@ -540,7 +544,7 @@ canvas {
 
 }
 .tile:hover { 
-border : 2px solid red;
+border : 2px solid white;
 }
 
 .scale {
@@ -639,6 +643,12 @@ transform: scale(1);
      .cbp-fbscroller > nav {
 		right: 10px;
 	}
+
+
+.single-menu {
+	margin-top: 0;
+}
+
 }
 @media only screen and (min-width: 601px) {
   .portofolio {
